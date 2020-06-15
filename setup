@@ -785,7 +785,7 @@ applications that integrate well with the GNOME desktop." 8 60
                fi
                xinit_config="exec gnome-session"
                ;;
-      "KDE Plasma") DESKTOP_PACKAGES+=('plasma-desktop')
+      "KDE Plasma") DESKTOP_PACKAGES+=('plasma')
                     dialog --title "Install Extras" --yesno "Would you like \
 to install the 'kde-applications' group?\n\nIt contains additional utilities \
 and applications that integrate well with the Plasma desktop." 8 60 
