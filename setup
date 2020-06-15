@@ -787,7 +787,7 @@ applications that integrate well with the GNOME desktop." 8 60
                ;;
       "KDE Plasma") DESKTOP_PACKAGES+=('plasma')
                     dialog --title "Install Extras" --yesno "Would you like \
-to install the 'kde-applications' group?\n\nIt contains additional utilities \
+to install the 'extras' group?\n\nIt contains additional utilities \
 and applications that integrate well with the Plasma desktop." 8 60 
                     if [ $? -eq 0 ]; then
                       DESKTOP_PACKAGES+=('konsole' 'geany' 'geany-plugins' 'dolphin' 'dolphin-plugins' 'falkon' 'tor' 'torbrowser-launcher' 'nyx' 'sysstat' 'thunderbird' 'telegram-desktop' 'vlc' 'clementine' 'bashtop' 'guvcview-qt' 'spectacle' 'ark'  'qbittorrent' 'gwenview' 'latte-dock'  'okular' 'kodi' 'simplescreenrecorder' 'aria2' 'pdfarranger' 'hplip' 'git' 'wget' 'neofetch' 'nano' 'reflector' 'p7zip' 'arj' 'lzip' 'lha' 'unrar' 'sharutils' 'lzop' 'cabextract' 'lrzip' 'youtube-dl' 'mesa-demos' 'tree' 'bind-tools' 'dmidecode' 'hddtemp' 'jshon' 'expac' 'konversation' 'cups' 'cups-pdf' 'xorg-xinit' 'inetutils' 'keepassxc' 'speedtest-cli' 'wavemon' 'cronie' 'elementary-icon-theme' 'uget' 'usbutils' 'pacman-contrib' 'calibre' 'unarj' 'cpio' 'w3m')
