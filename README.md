@@ -1,4 +1,4 @@
-# Aturux-OS
+# AturuxOS-Plasma
 
 Aturux-OS ist a personal modification (added some extra software to KDE Plasma) of the original arch-setup:
 https://github.com/jorgeluiscarrillo/arch-setup
