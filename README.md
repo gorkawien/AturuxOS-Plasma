@@ -19,17 +19,17 @@ keep the installation process as user friendly as possible.
 * Bootable installation media
   * First, [download](https://www.archlinux.org/download/) the latest Arch ISO. Then, follow the instructions to [create a bootable device](https://wiki.archlinux.org/index.php/USB_flash_installation_media)
 * Working internet connection
-  * If you require a wireless connection, use the `wifi-menu` command to connect to a network
-
+  * If you require a wireless connection, use the `iwctl` command to [connect to a network](https://wiki.archlinux.org/index.php/Iwd#iwctl)
+  
 ### Downloading and Running the Script
 
-1. Once you have booted into the live media, install git: `pacman -Sy git`
+1. Once you have booted into the live media, install git and dialog: `pacman -Sy git dialog --noconfirm`
    * If you encounter `error: not enough free disk space`, then increase cowspace:
 
      `mount -o remount,size=1G /run/archiso/cowspace`
 
-2. Clone this repository: `git clonehttps://github.com/gorkawien/AturuxOS-Plasma-Testing`
-3. Run the script: `cd Aturux-OS-Plasma-Testing/ && chmod +x setup && ./setup`
+2. Clone this repository: `git clone https://github.com/gorkawien/AturuxOS-Plasma`
+3. Run the script: `cd AturuxOS-Plasma/ && chmod +x setup && ./setup`
 
 ## Features
 
