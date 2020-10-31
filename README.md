@@ -1,6 +1,6 @@
 # AturuxOS-Plasma
 
-Aturux-OS ist a personal modification (added some extra software to KDE Plasma) of the original arch-setup:
+Aturux-OS is a personal modification (added some extra software to KDE Plasma) of the original arch-setup:
 https://github.com/jorgeluiscarrillo/arch-setup
 
 arch-setup is a console menu based (TUI) install script for Arch Linux.
@@ -84,3 +84,9 @@ proprietary drivers. If a virtual machine is detected, any utilities and drivers
 * Virtual Machine Utilities
   * VirtualBox: Guest Additions
   * VMware Workstation: Open Virtual Machine Tools
+  José Santos
+
+Vienna-Austria
+
+https://www.youtube.com/channel/UCzfGbiA-GCu8UoFNuuoUQ-g/
+  
