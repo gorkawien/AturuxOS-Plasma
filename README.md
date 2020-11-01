@@ -85,7 +85,9 @@ proprietary drivers. If a virtual machine is detected, any utilities and drivers
   * VirtualBox: Guest Additions
   * VMware Workstation: Open Virtual Machine Tools
   
-  José Santos
+
+
+José Santos
 
 Vienna-Austria
 
